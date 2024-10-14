@@ -71,6 +71,7 @@
         padding: 1em 2em;
         text-decoration: none;
         border-radius: 0.25em;
+        font-weight: 700;
     }
 
     .button--secondary{
@@ -82,5 +83,16 @@
     .button--secondary:hover{
         background-color: var(--gray);
         color: var(--light);
+    }
+
+    .button--primary{
+        background-color: var(--primary);
+        color: var(--light);
+    }
+
+    
+    .button--primary:hover{
+        background-color: var(--light);
+        color: var(--primary);
     }
 }
