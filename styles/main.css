@@ -43,7 +43,7 @@
     }
 
    .page__content{
-        max-width: 50em;
+        max-width: 60em;
         margin: auto;
     }
    
@@ -98,5 +98,37 @@
 
     .picture-box{
         margin: 1em 0;
+    }
+
+    .picture-box__caption{
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .h3{
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .highlight-box{
+        padding: 1.75em;
+        border: var(--primary) 3px solid;
+    }
+
+    .list > li{
+        margin: 0.5em 0;
+    }
+    .list > li::marker{
+        color: var(--primary);
+    }
+
+    .panel{
+        max-width: 20em;
+        display: inline-block;
     }
 }
