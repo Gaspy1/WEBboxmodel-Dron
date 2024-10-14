@@ -95,4 +95,8 @@
         background-color: var(--light);
         color: var(--primary);
     }
+
+    .picture-box{
+        margin: 1em 0;
+    }
 }
