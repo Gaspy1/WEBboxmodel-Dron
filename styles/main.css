@@ -130,5 +130,26 @@
     .panel{
         max-width: 20em;
         display: inline-block;
+        vertical-align: top;
+    }
+
+    .page__section{
+        padding: 1em;
+    }
+
+    .gallery{
+        --margin: 1em;
+        margin: calc(-1 * var(--margin));
+    }
+    .gallery__item{
+        display: inline-block;
+        width: calc(100% - 2* var(--margin));
+        margin: 1em;
+    }
+
+    @media screen and (min-width: 768px) {
+        .gallery__item--50w{
+            width: calc(50% - 2 * var(--margin));
+        }
     }
 }
