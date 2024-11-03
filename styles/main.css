@@ -46,6 +46,13 @@
         max-width: 60em;
         margin: auto;
     }
+
+    .page__footer {
+        background-color: var(--gray);
+        color: var(--light);
+        padding: 1.5em;
+        text-align: center;
+    }
    
    .page__intro{
         max-width: 45em;
@@ -152,4 +159,41 @@
             width: calc(50% - 2 * var(--margin));
         }
     }
+
+    .outline-box {
+        border: 3px solid var(--primary);
+        padding: 1em;
+    }
+
+    .outline-box--gray {
+        border: solid;
+        background-color: var(--gray);
+        color: var(--light);
+        text-align: center;
+    }
+   
+    .text-title {
+        font-weight: 600;
+        margin: 0;
+        font-size: calc(1em + 3vw);
+    }
+
+    .text-title--big {
+        font-size: 2em; 
+        display: inline;
+    }
+
+    .link {
+        color: var(--gray);
+        text-decoration: none;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
+    .link--inverted {
+        color: var(--light);
+    }
+
 }
