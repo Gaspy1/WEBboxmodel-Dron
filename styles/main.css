@@ -161,9 +161,7 @@
     }
 
     .gray-box{
-        border: 3px solid var(--gray);
         padding: 1em;
-        border: solid;
         background-color: var(--gray);
         color: var(--light);
         text-align: center;
