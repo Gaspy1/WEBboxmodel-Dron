@@ -160,12 +160,9 @@
         }
     }
 
-    .outline-box {
+    .outline-box--gray {
         border: 3px solid var(--primary);
         padding: 1em;
-    }
-
-    .outline-box--gray {
         border: solid;
         background-color: var(--gray);
         color: var(--light);
